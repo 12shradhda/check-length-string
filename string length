@@ -1,0 +1,12 @@
+public class StringLengthCheck {
+    public static void main(String[] args) {
+        String text = "Hi I'm learning in PFE, I will become a developer";
+
+        if (text.length() > 28) {
+            text = "I will become a developer";
+            System.out.println("Successfully changed.");
+        }
+
+        System.out.println("Modified string: " + text);
+    }
+}
